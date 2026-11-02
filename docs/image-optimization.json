@@ -1,0 +1,209 @@
+{
+  "./assets/images/coastal-bedroom.png": {
+    "src": "./assets/images/coastal-bedroom.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 227114,
+    "originalBytes": 2456771,
+    "quality": 88,
+    "hero": true,
+    "variants": []
+  },
+  "./assets/images/procedures/bbl-realistic.png": {
+    "src": "./assets/images/procedures/bbl-realistic.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 52730,
+    "originalBytes": 1908148,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/procedures/bbl-realistic-640w.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 19658
+      }
+    ]
+  },
+  "./assets/images/procedures/liposuction-realistic.png": {
+    "src": "./assets/images/procedures/liposuction-realistic.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 45332,
+    "originalBytes": 1816178,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/procedures/liposuction-realistic-640w.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 18492
+      }
+    ]
+  },
+  "./assets/images/procedures/tummy-tuck-realistic.png": {
+    "src": "./assets/images/procedures/tummy-tuck-realistic.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 74266,
+    "originalBytes": 2115209,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/procedures/tummy-tuck-realistic-640w.webp",
+        "width": 640,
+        "height": 853,
+        "bytes": 27288
+      }
+    ]
+  },
+  "./assets/images/procedures/rhinoplasty-surgical.png": {
+    "src": "./assets/images/procedures/rhinoplasty-surgical.webp",
+    "width": 1586,
+    "height": 992,
+    "bytes": 106766,
+    "originalBytes": 2202152,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/procedures/rhinoplasty-surgical-640w.webp",
+        "width": 640,
+        "height": 400,
+        "bytes": 18602
+      }
+    ]
+  },
+  "./assets/images/procedures/breast-augmentation-realistic.png": {
+    "src": "./assets/images/procedures/breast-augmentation-realistic.webp",
+    "width": 1586,
+    "height": 992,
+    "bytes": 40548,
+    "originalBytes": 1800767,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/procedures/breast-augmentation-realistic-640w.webp",
+        "width": 640,
+        "height": 400,
+        "bytes": 8720
+      }
+    ]
+  },
+  "./assets/images/stay-courtyard.png": {
+    "src": "./assets/images/stay-courtyard.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 268854,
+    "originalBytes": 2710830,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/stay-courtyard-640w.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 73404
+      }
+    ]
+  },
+  "./assets/images/founder-v2.jpeg": {
+    "src": "./assets/images/founder-v2.webp",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 224728,
+    "originalBytes": 285037,
+    "quality": 88,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/founder-v2-640w.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 84364
+      }
+    ]
+  },
+  "./assets/images/senior-smile-hero-wide.png": {
+    "src": "./assets/images/senior-smile-hero-wide.webp",
+    "width": 1672,
+    "height": 941,
+    "bytes": 240124,
+    "originalBytes": 2444337,
+    "quality": 88,
+    "hero": true,
+    "variants": []
+  },
+  "./assets/images/smile-dental-room.png": {
+    "src": "./assets/images/smile-dental-room.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 201150,
+    "originalBytes": 2416682,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/smile-dental-room-640w.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 55516
+      }
+    ]
+  },
+  "./assets/images/stay-concierge.png": {
+    "src": "./assets/images/stay-concierge.webp",
+    "width": 1448,
+    "height": 1086,
+    "bytes": 172730,
+    "originalBytes": 2394933,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/stay-concierge-640w.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 54208
+      }
+    ]
+  },
+  "./assets/images/senior-smile-hero.png": {
+    "src": "./assets/images/senior-smile-hero.webp",
+    "width": 1122,
+    "height": 1402,
+    "bytes": 150120,
+    "originalBytes": 2336916,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/senior-smile-hero-640w.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 65082
+      }
+    ]
+  },
+  "./assets/images/smile-family.png": {
+    "src": "./assets/images/smile-family.webp",
+    "width": 1586,
+    "height": 992,
+    "bytes": 162062,
+    "originalBytes": 2335861,
+    "quality": 85,
+    "hero": false,
+    "variants": [
+      {
+        "src": "./assets/images/smile-family-640w.webp",
+        "width": 640,
+        "height": 400,
+        "bytes": 49026
+      }
+    ]
+  }
+}

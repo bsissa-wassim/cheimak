@@ -32,6 +32,11 @@ for (const source of files) {
       ? /url\(\s*["']?([^\s"')]+)["']?\s*\)/g
       : /\bimport\s+(?:[^'";]*?\s+from\s+)?['"]([^'"]+)['"]/g;
   for (const match of text.matchAll(pattern)) addReference(match[1], source);
+  if (extension === '.html') {
+    for (const match of text.matchAll(/\s(?:srcset|imagesrcset)=["']([^"']+)["']/g)) {
+      for (const candidate of match[1].split(',')) addReference(candidate.trim().split(/\s+/)[0], source);
+    }
+  }
 }
 
 if (path.dirname(output) !== root || path.basename(output) !== 'dist') throw new Error('Invalid build directory');

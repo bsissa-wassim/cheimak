@@ -139,8 +139,10 @@ linked and no deployment has been initiated by this configuration step.
 
 The 17 current regression tests pass. Rendered desktop/mobile browser verification
 remains outstanding. The contact forms prepare WhatsApp/email drafts and do not
-submit to a backend. Current source PNGs are large; image compression is a further
-performance improvement rather than a hosting requirement.
+submit to a backend. Photos are delivered as optimized WebP files, with 640px responsive variants
+for supporting images. Heroes are explicitly eager, high priority and preloaded.
+Original PNG/JPEG photos are retained locally and excluded from the public output.
+The prepared deployment is approximately 2.6 MB instead of 26.2 MB.
 
 ## Decisions carried forward from the audit
 
