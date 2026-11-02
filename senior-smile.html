@@ -37,7 +37,7 @@
         <div class="brand-zone"><a class="brand" href="#top" aria-label="GlowLink home" data-i18n-aria-label="homeLabel">
           <span class="brand__lockup"><span class="brand__name">Glow<span>Link</span></span><span class="brand__division">Senior &amp; Smile</span></span>
         </a></div>
-        <nav class="main-nav" aria-label="Main navigation" data-i18n-aria-label="navigationLabel">
+        <nav class="main-nav" id="main-navigation" aria-label="Main navigation" data-i18n-aria-label="navigationLabel">
           <a class="nav-link" href="#procedures" data-i18n="smileNavProcedures">Our services</a>
           <a class="nav-link" href="#stay" data-i18n="navStay">Your stay</a>
           <a class="nav-link" href="#surgeon" data-i18n="smileNavSurgeon">Your care team</a>
@@ -51,7 +51,8 @@
         </nav>
         <div class="header-actions">
 
-          <a class="button button--universe" href="./index.html" data-universe-link="./index.html"><span>Health &amp; Aesthetic</span><span aria-hidden="true">&#8599;</span></a>
+          <a class="button button--universe" href="./index.html" data-universe-link="./index.html"><span>Health &amp; Aesthetic</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+          <button class="nav-toggle" type="button" data-nav-toggle aria-controls="main-navigation" aria-expanded="false" aria-label="Navigation menu" data-i18n-aria-label="navigationMenu" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path class="nav-toggle__menu" d="M4 7h16M4 12h16M4 17h16"/><path class="nav-toggle__close" d="m6 6 12 12M6 18 18 6"/></svg></button>
         </div>
       </div>
     </header>
@@ -156,7 +157,7 @@
         <div class="section-shell surgeon-layout">
           <figure class="surgeon-portrait">
             <img src="./assets/images/smile-dental-room.png" width="1448" height="1086" loading="lazy" decoding="async" alt="Illustrative contemporary dental room with a pale-blue examination chair" data-i18n-alt="smileSurgeonImageAlt">
-            <figcaption class="surgeon-experience"><span class="surgeon-experience__number" aria-hidden="true">&#8599;</span><span data-i18n="smileSurgeonExperience">Listening, clarity and personal coordination</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2v2M11 2v2M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg></figcaption>
+            <figcaption class="surgeon-experience"><span class="surgeon-experience__number" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span><span data-i18n="smileSurgeonExperience">Listening, clarity and personal coordination</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2v2M11 2v2M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1M8 15a6 6 0 0 0 12 0v-3"/><circle cx="20" cy="10" r="2"/></svg></figcaption>
           </figure>
           <div class="surgeon-content">
             <p class="eyebrow" data-i18n="smileSurgeonEyebrow">Your care, with the right people</p>
@@ -293,7 +294,7 @@
                   <label class="field form-field--wide" for="senior-topic"><span data-i18n="seniorTopicLabel">What would you like to discuss?</span><select class="field-control" id="senior-topic" name="topic" required><option value="" disabled selected data-i18n="seniorTopicPlaceholder">Choose a subject</option><option value="dental" data-i18n="seniorDentalLabel">Dental care</option><option value="senior" data-i18n="seniorSupportLabel">Senior support</option><option value="both" data-i18n="seniorBothLabel">Dental care &amp; senior support</option></select></label>
                   <label class="field form-field--wide" for="senior-message"><span data-i18n="seniorMessageLabel">Your needs and questions (optional)</span><textarea class="field-control" id="senior-message" name="message" rows="3"></textarea></label>
                 </div>
-                <button class="button" type="submit"><span data-i18n="seniorSubmit">Prepare my message</span><span aria-hidden="true">↗</span></button>
+                <button class="button" type="submit"><span data-i18n="seniorSubmit">Prepare my message</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></button>
                 <p class="quote-status" role="status" aria-atomic="true" data-senior-status></p>
                 <div class="inline-group senior-draft-actions" data-senior-actions hidden><a class="text-link" data-senior-whatsapp target="_blank" rel="noopener noreferrer" data-i18n="seniorWhatsApp">Continue on WhatsApp</a><a class="text-link" data-senior-email data-i18n="seniorEmail">Continue by email</a></div>
               </fieldset>
@@ -342,7 +343,7 @@
               <div class="portrait-index">01 <span class="portrait-index-line"></span><span data-i18n="founderPortraitIndex">THE FOUNDER</span></div>
               <div class="portrait-caption">
                 <div><span class="portrait-subtitle" data-i18n="founderPortraitTag">THE GLOWLINK SPIRIT</span><span class="portrait-title" data-i18n="founderName">The founder</span></div>
-                <span class="portrait-symbol" aria-hidden="true">↗</span>
+                <svg class="portrait-symbol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
               </div>
             </div>
           </article>

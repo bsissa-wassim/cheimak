@@ -105,3 +105,20 @@ Source, CSS syntax, translation/module logic and HTTP checks are recorded in
 the README. Visual approval remains outstanding before declaring Phase 4 fully
 reviewed. Review at 1440, 1024, 1000, 768, 760, 600, 390, 375 and 320px widths,
 in both languages, with keyboard navigation and enlarged browser text.
+
+
+## Current mobile navigation
+
+Both pages now use a compact header with the direct experience button and a
+44px menu toggle below 1000px. The menu expands beneath the sticky header; links
+and language controls no longer require horizontal scrolling. Opening focuses
+the first link; Escape closes and restores toggle focus. A link, outside click,
+focus leaving the header or desktop resize also closes the menu. Without JS,
+the links remain visible in document flow. Header height is remeasured after
+progressive enhancement, including browsers without ResizeObserver.
+
+Header, founder and form arrows use inline SVG instead of font/emoji glyphs.
+Mobile typography, hero spacing, trust items, gallery crops, contact controls
+and founder spacing use the shared responsive rules on both experiences.
+Three Node interaction tests cover menu behavior. Browser automation cannot
+initialize in this environment; rendered mobile verification remains pending.

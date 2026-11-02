@@ -1,5 +1,6 @@
 export const universeCopy = {
   en: {
+    navigationMenu: 'Navigation menu',
     universeMenu: 'Our worlds',
     universeClose: 'Close experience selector',
     universeHeading: 'Where would you like to begin?',
@@ -73,6 +74,7 @@ export const universeCopy = {
     seniorHealthLink: 'Explore Health & Aesthetic',
   },
   fr: {
+    navigationMenu: 'Menu de navigation',
     universeMenu: 'Nos univers',
     universeClose: 'Fermer le choix des univers',
     universeHeading: 'Et vous, par où commencer ?',

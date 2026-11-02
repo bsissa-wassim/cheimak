@@ -50,6 +50,15 @@
 }
 
 @media (max-width: 760px) {
+  :root {
+    --gutter: clamp(1rem, 4.5vw, 1.5rem);
+    --section-space: clamp(3rem, 10vw, 4rem);
+    --text-display: clamp(2.5rem, 10.8vw, 3.75rem);
+    --text-heading: clamp(1.875rem, 8.5vw, 2.625rem);
+    --text-feature: clamp(2rem, 8.5vw, 2.75rem);
+    --text-quote: clamp(2.125rem, 9vw, 2.875rem);
+  }
+
   .stay-layout {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--space-8);
@@ -99,12 +108,18 @@
   }
 
   .hero {
-    min-height: calc(88svh - var(--header-height));
+    min-height: calc(100svh - var(--header-height));
   }
 
   .hero__inner {
-    padding-block: clamp(4rem, 14vw, 5.5rem) 8rem;
+    padding-block: clamp(3rem, 11vw, 4.5rem) 6rem;
   }
+
+  .hero h1 { line-height: 1.05; margin-block-start: var(--space-5); }
+  .hero__description { margin-block-start: var(--space-5); }
+  .hero__actions { align-items: flex-start; flex-direction: column; gap: 10px; margin-block-start: var(--space-6); }
+  .hero__actions > .button { min-height: 48px; }
+  .hero__location { margin-block-start: var(--space-6); }
 
   .hero__image {
     object-position: 57% 50%;
@@ -142,15 +157,22 @@
   }
 
   .trust-strip__items {
-    justify-content: flex-start;
-    overflow-x: auto;
+    flex-direction: column;
+    gap: var(--space-3);
     padding-block: var(--space-5);
-    scrollbar-width: thin;
   }
 
   .trust-strip__items li {
-    flex: none;
+    min-width: 0;
+    align-items: flex-start;
   }
+
+  .trust-strip__items svg { margin-block-start: 2px; }
+  .procedure-photo__caption { min-height: 0; gap: var(--space-3); padding-block: var(--space-4); }
+  .procedure-photo__caption h3 { font-size: 1.25rem; }
+  .surgeon-actions { align-items: stretch; flex-direction: column; gap: var(--space-3); }
+  .surgeon-actions .button { width: 100%; }
+  .surgeon-experience { gap: var(--space-3); padding: var(--space-5); }
 
   .mobile-quote {
     position: fixed;
@@ -188,6 +210,10 @@
   .quote-submit {
     width: 100%;
   }
+
+  .quote-form > fieldset > .button { width: 100%; }
+  .quote-draft-actions, .senior-draft-actions { align-items: stretch; flex-direction: column; gap: var(--space-2); }
+  .quote-details a { overflow-wrap: anywhere; }
 
   .grid--four,
   .procedure-list {
@@ -229,6 +255,22 @@
     --procedure-image-ratio: 4 / 5;
     grid-column: auto;
   }
+
+  .procedure-photo:nth-child(n + 4) { --procedure-image-ratio: 16 / 10; }
+  [data-page="senior"] .procedure-photo { --procedure-image-ratio: 4 / 3; }
+  .hero__caption { display: none; }
+  .hero__eyebrow { font-size: .6875rem; letter-spacing: .1em; }
+  .hero__scroll { font-size: .625rem; }
+  .package-card { padding: var(--space-6); }
+  .founder .section-title h2 { font-size: clamp(34px, 9vw, 46px); line-height: 1.12; }
+  .founder .founder-inner { padding-inline: var(--gutter); }
+  .founder .portrait-panel { min-height: clamp(280px, 85vw, 360px); }
+  .founder .portrait-caption { padding: 20px; }
+  .founder .portrait-title { font-size: 28px; }
+  .founder .story-panel { padding: 22px 18px; }
+  .founder .founder-book__page { padding: 16px; }
+  .founder .page-footer { flex-wrap: wrap; gap: 8px 16px; }
+  .founder .founder-mission { padding: 24px; }
 
   .button--header {
     display: none;

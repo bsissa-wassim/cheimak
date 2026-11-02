@@ -137,7 +137,7 @@ root with Vercel (the configuration supplies the build settings), or upload the
 contents of `dist/` to another static host. A Vercel account/project has not been
 linked and no deployment has been initiated by this configuration step.
 
-The 14 current regression tests pass. Rendered desktop/mobile browser verification
+The 17 current regression tests pass. Rendered desktop/mobile browser verification
 remains outstanding. The contact forms prepare WhatsApp/email drafts and do not
 submit to a backend. Current source PNGs are large; image compression is a further
 performance improvement rather than a hosting requirement.
