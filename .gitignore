@@ -1,0 +1,10 @@
+# Local tools, generated build output and operating-system files.
+dist/
+.vercel/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*

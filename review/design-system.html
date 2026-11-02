@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#244c42">
+    <title>GlowLink | Design system review</title>
+    <link rel="icon" href="../assets/icons/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="./review.css">
+    <script type="module" src="../js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <svg class="review-icons" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14m-7-7 7 7-7 7"/>
+      </symbol>
+      <symbol id="icon-chevron" viewBox="0 0 24 24">
+        <path d="m6 9 6 6 6-6"/>
+      </symbol>
+    </svg>
+
+    <main id="main-content" class="section-shell review-page">
+      <header class="flow review-intro">
+        <p class="eyebrow">GlowLink · Phase 3 review</p>
+        <h1>Design foundation.</h1>
+        <p class="text-lead copy-measure">
+          A local reference for the green and pastel-blue palette, typography and shared
+          components. This is a development review page, separate from the website.
+        </p>
+        <nav class="inline-group" aria-label="Design system sections">
+          <a class="nav-link" href="#palette">Palette</a>
+          <a class="nav-link" href="#typography">Typography</a>
+          <a class="nav-link" href="#controls">Controls</a>
+          <a class="nav-link" href="#imagery">Imagery</a>
+          <a class="nav-link" href="#procedures">Procedures</a>
+          <a class="nav-link" href="#packages">Packages</a>
+          <a class="nav-link" href="#disclosures">Disclosures</a>
+          <a class="nav-link" href="#form-fields">Form fields</a>
+        </nav>
+      </header>
+
+      <section id="palette" class="review-section flow" aria-labelledby="palette-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">01 / Brand colors</p>
+          <h2 id="palette-title">Green and pastel blue.</h2>
+          <p class="text-muted">Deep green for type and controls, pastel blue for surfaces and accents.</p>
+        </div>
+        <div class="review-palette">
+          <figure><div class="review-swatch review-swatch--green"></div><figcaption>Green <code>#244C42</code></figcaption></figure>
+          <figure><div class="review-swatch review-swatch--blue"></div><figcaption>Pastel blue <code>#D5EAF2</code></figcaption></figure>
+          <figure><div class="review-swatch review-swatch--background"></div><figcaption>Background <code>#F7FBFC</code></figcaption></figure>
+          <figure><div class="review-swatch review-swatch--green-dark"></div><figcaption>Hover green <code>#193C33</code></figcaption></figure>
+          <figure><div class="review-swatch review-swatch--green-soft"></div><figcaption>Accent green <code>#386B60</code></figcaption></figure>
+          <figure><div class="review-swatch review-swatch--blue-light"></div><figcaption>Light blue <code>#EDF6FA</code></figcaption></figure>
+          <figure><div class="review-swatch review-swatch--line"></div><figcaption>Rule <code>#B9D0D4</code></figcaption></figure>
+          <figure><div class="review-swatch review-swatch--muted"></div><figcaption>Muted text <code>#4D6962</code></figcaption></figure>
+        </div>
+        <p class="field-hint">Pastel blue text sits on green panels. Text and controls on light surfaces use green.</p>
+      </section>
+
+      <section id="typography" class="review-section flow" aria-labelledby="type-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">02 / Georgia and Arial</p>
+          <h2 id="type-title">A familiar typographic voice.</h2>
+          <p class="text-muted">System font stacks, regular serif headings, restrained tracking. No font downloads.</p>
+        </div>
+        <div class="review-type-sample flow">
+          <p class="eyebrow">A more considered kind of medical travel</p>
+          <h2 class="heading-display">Your glow-up journey in Tunisia.</h2>
+          <p class="text-lead copy-measure">Expert aesthetic care, thoughtfully coordinated with a peaceful stay on the Mediterranean.</p>
+        </div>
+        <div class="split">
+          <div class="flow">
+            <p class="eyebrow">The GlowLink difference</p>
+            <h3 class="heading-intro">Feel cared for at every step.</h3>
+            <p class="text-muted">From your first conversation to your recovery in Tunis, our team helps make the details feel simpler, more personal, and entirely yours.</p>
+          </div>
+          <div class="flow">
+            <h3 class="heading-feature">A softer place to recover.</h3>
+            <p class="text-muted">Picture a calm, comfortable stay in the Tunis lake district or northern suburbs, with the support you need close at hand.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="controls" class="review-section flow" aria-labelledby="controls-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">03 / Shared controls</p>
+          <h2 id="controls-title">Clear, quiet invitations.</h2>
+        </div>
+        <div class="inline-group">
+          <a class="button" href="#form-fields">Get your free quote<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          <a class="button button--outline" href="#form-fields">Inquire now<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          <a class="button button--light" href="#imagery">Explore the experience<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        </div>
+        <a class="text-link" href="#form-fields">Get your free quote<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+        <p class="field-hint">Keyboard focus is visible. Pointer motion is removed when reduced motion is requested.</p>
+      </section>
+
+      <section id="imagery" class="review-section flow" aria-labelledby="imagery-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">04 / Image frames</p>
+          <h2 id="imagery-title">The existing Mediterranean direction.</h2>
+        </div>
+        <div class="grid grid--two">
+          <figure>
+            <div class="image-frame image-frame--wide"><img src="../assets/images/glowlink-tunis-recovery.png" width="1312" height="816" loading="lazy" decoding="async" alt="A cream bedroom with a sage bed throw and balcony overlooking the water"></div>
+            <figcaption>Existing hero image. Source dimensions: 1312 × 816.</figcaption>
+          </figure>
+          <figure>
+            <div class="image-frame image-frame--wide"><img src="../assets/images/glowlink-tunis-terrace.png" width="1264" height="848" loading="lazy" decoding="async" alt="A terrace with olive trees, an infinity pool and a calm waterfront view"></div>
+            <figcaption>Existing stay image. Source dimensions: 1264 × 848.</figcaption>
+          </figure>
+        </div>
+        <p class="notice">Accommodation partners are being finalized. We’ll share options that suit your dates and needs.</p>
+      </section>
+
+      <section id="procedures" class="review-section flow" aria-labelledby="procedure-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">05 / Procedure items</p>
+          <h2 id="procedure-title">Care that feels personal.</h2>
+          <p class="text-muted">Shared type, numbering, rules and link treatment. Section photography is a later phase.</p>
+        </div>
+        <div class="procedure-list">
+          <a class="procedure-item" href="#form-fields"><span class="procedure-item__top"><span>01</span><svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="procedure-item__name">BBL</span><span class="procedure-item__description">Brazilian Butt Lift</span></a>
+          <a class="procedure-item" href="#form-fields"><span class="procedure-item__top"><span>02</span><svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="procedure-item__name">Liposuction</span><span class="procedure-item__description">Body contouring</span></a>
+          <a class="procedure-item" href="#form-fields"><span class="procedure-item__top"><span>03</span><svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="procedure-item__name">Tummy tuck</span><span class="procedure-item__description">Abdominoplasty</span></a>
+          <a class="procedure-item" href="#form-fields"><span class="procedure-item__top"><span>04</span><svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="procedure-item__name">Rhinoplasty</span><span class="procedure-item__description">Nose surgery</span></a>
+          <a class="procedure-item" href="#form-fields"><span class="procedure-item__top"><span>05</span><svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></span><span class="procedure-item__name">Breast augmentation</span><span class="procedure-item__description">Breast surgery</span></a>
+        </div>
+        <p class="field-hint">All procedures are subject to individual medical assessment and surgeon approval.</p>
+      </section>
+
+      <section id="packages" class="review-section flow" aria-labelledby="package-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">06 / Package presentations</p>
+          <h2 id="package-title">Choose your comfort level.</h2>
+          <p class="text-muted">Original inclusions, a restrained featured treatment and no fixed prices.</p>
+        </div>
+        <div class="grid grid--three">
+          <article class="package-card" aria-labelledby="essential-title">
+            <p class="eyebrow">01</p>
+            <h3 id="essential-title">Essential</h3>
+            <p class="text-muted">The essentials, beautifully handled.</p>
+            <div class="package-card__divider" aria-hidden="true"></div>
+            <ul class="check-list"><li>Aesthetic surgery</li><li>4-star hotel stay</li><li>Private airport, clinic &amp; hotel transfers</li></ul>
+            <a class="button button--outline" href="#form-fields" aria-label="Inquire about Essential">Inquire now<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          </article>
+          <article class="package-card package-card--featured" aria-labelledby="comfort-title">
+            <span class="package-card__label">Most popular</span>
+            <p class="eyebrow">02</p>
+            <h3 id="comfort-title">Comfort</h3>
+            <p class="text-muted">A little more support, all around.</p>
+            <div class="package-card__divider" aria-hidden="true"></div>
+            <ul class="check-list"><li>Aesthetic surgery</li><li>4- or 5-star hotel stay</li><li>VIP private transfers</li><li>On-site assistance &amp; concierge, 24/7</li></ul>
+            <a class="button" href="#form-fields" aria-label="Inquire about Comfort">Inquire now<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          </article>
+          <article class="package-card" aria-labelledby="vip-title">
+            <p class="eyebrow">03</p>
+            <h3 id="vip-title">VIP &amp; Private Care</h3>
+            <p class="text-muted">Dedicated care, day and night.</p>
+            <div class="package-card__divider" aria-hidden="true"></div>
+            <ul class="check-list"><li>Aesthetic surgery</li><li>5-star luxury hotel stay</li><li>VIP private transfers</li><li>Dedicated private nurse at the hotel, 24/7</li><li>Premium post-operative follow-up</li></ul>
+            <a class="button button--outline" href="#form-fields" aria-label="Inquire about VIP and Private Care">Inquire now<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+          </article>
+        </div>
+        <p class="field-hint">Packages are coordinated based on medical assessment, availability, and your individual needs. No fixed prices are displayed. Private nursing support is subject to availability and your care plan.</p>
+      </section>
+
+      <section id="disclosures" class="review-section flow" aria-labelledby="disclosure-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">07 / Native disclosures</p>
+          <h2 id="disclosure-title">Good to know.</h2>
+        </div>
+        <div class="accordion">
+          <details class="accordion__item">
+            <summary>How do you approach patient safety?<svg class="review-icon" aria-hidden="true"><use href="#icon-chevron"/></svg></summary>
+            <p>Your procedure is discussed with the medical team, who assess your individual health and suitability. The surgeon and clinic determine the appropriate care plan. We help coordinate logistics, but do not replace medical advice or clinical care.</p>
+          </details>
+          <details class="accordion__item">
+            <summary>Are the hotel partners confirmed?<svg class="review-icon" aria-hidden="true"><use href="#icon-chevron"/></svg></summary>
+            <p>Accommodation arrangements are being finalized. We’ll share suitable 4- and 5-star options in the Tunis lake district and northern suburbs when we discuss your dates.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="form-fields" class="review-section flow" aria-labelledby="form-title">
+        <div class="flow review-section-heading">
+          <p class="eyebrow">08 / Form fields</p>
+          <h2 id="form-title" class="heading-quote">Start with a conversation.</h2>
+          <p id="review-form-note" class="text-muted">Component samples only. This page does not send enquiries.</p>
+        </div>
+        <div class="form-grid" aria-describedby="review-form-note">
+          <label class="field" for="review-name"><span>Full name</span><input class="field-control" id="review-name" name="fullName" autocomplete="name"></label>
+          <label class="field" for="review-email"><span>Email address</span><input class="field-control" id="review-email" name="email" type="email" autocomplete="email"></label>
+          <label class="field" for="review-phone"><span>Phone number</span><input class="field-control" id="review-phone" name="phone" type="tel" autocomplete="tel"></label>
+          <label class="field" for="review-country"><span>Country</span><select class="field-control" id="review-country" name="country"><option value="" disabled selected>Select your country</option><option>Canada</option><option>United States</option><option>Other</option></select></label>
+          <label class="field form-field--wide" for="review-message"><span>Anything else you’d like us to know? (optional)</span><textarea class="field-control" id="review-message" name="message" rows="3"></textarea></label>
+        </div>
+        <label class="checkbox-field" for="review-whatsapp"><input id="review-whatsapp" type="checkbox" checked><span>This number can receive WhatsApp messages</span></label>
+        <p class="form-privacy">The form opens a WhatsApp message or email draft on your device; this website does not store your inquiry. If you choose to send it, WhatsApp or your email provider will process the information under its own privacy terms.</p>
+      </section>
+
+      <footer class="review-footer flow">
+        <p>Phase 3 establishes shared styles. The Phase 4 website preview contains the header and hero.</p>
+        <a class="text-link" href="../index.html">View the header and hero<svg class="review-icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,248 @@
+{
+  "capturedAt": "2026-10-24T09:37:56.306Z",
+  "reference": "https://glowlink-seven.vercel.app/",
+  "verification": "HTML, CSS, application JavaScript and image-source inspection only; browser unavailable.",
+  "anchors": [
+    {
+      "id": "top",
+      "exists": true
+    },
+    {
+      "id": "procedures",
+      "exists": true
+    },
+    {
+      "id": "stay",
+      "exists": true
+    },
+    {
+      "id": "surgeon",
+      "exists": true
+    },
+    {
+      "id": "packages",
+      "exists": true
+    },
+    {
+      "id": "faq",
+      "exists": true
+    },
+    {
+      "id": "quote",
+      "exists": true
+    },
+    {
+      "id": "experience",
+      "exists": true
+    }
+  ],
+  "fontFaceCount": 0,
+  "fontAssetReferences": 0,
+  "customPalette": [
+    "#0000",
+    "#18251f4f",
+    "#18251f61",
+    "#1a2a2214",
+    "#1a2a223d",
+    "#1a2a2259",
+    "#1a2a228a",
+    "#1a2a22bf",
+    "#1a2a22c2",
+    "#21332914",
+    "#26332d",
+    "#26332d12",
+    "#27372e",
+    "#2a3a2f0f",
+    "#2f433617",
+    "#32483b",
+    "#405a4c",
+    "#566159",
+    "#58635b",
+    "#59645b",
+    "#59665e",
+    "#5f685f",
+    "#627367",
+    "#65786c",
+    "#657d6e",
+    "#657d6e1f",
+    "#657d6e2b",
+    "#6e786f",
+    "#717970",
+    "#72796e",
+    "#737c73",
+    "#737d72",
+    "#747b73",
+    "#7b8179",
+    "#82877e",
+    "#838980",
+    "#898e85",
+    "#8a9089",
+    "#8d927f",
+    "#92978e",
+    "#969a91",
+    "#a3a79d",
+    "#a5a99f",
+    "#a9b5aa",
+    "#aab4aa",
+    "#b2b4ad",
+    "#bba77d",
+    "#bbc3ba",
+    "#c5cabf",
+    "#cbb98f",
+    "#d5c39b",
+    "#d7ddd4",
+    "#d7ddd5",
+    "#d8ddd5",
+    "#d8ded6",
+    "#d8e2d7",
+    "#d9dfd6",
+    "#e1e4dd",
+    "#e1e5de",
+    "#e4e5de",
+    "#e9ede7",
+    "#e9eee8",
+    "#edf1eb",
+    "#eee9dc",
+    "#eeeee8",
+    "#f1f1e9",
+    "#f3e9e6",
+    "#f3f2ec",
+    "#f4f5f0",
+    "#f6f5ef",
+    "#f7f5ef",
+    "#f8f6ee",
+    "#f8f7f1",
+    "#fbfaf7",
+    "#fbfaf7f7",
+    "#fff",
+    "#fffc",
+    "#ffffff26",
+    "#ffffff3b",
+    "#ffffff9e",
+    "#ffffffab",
+    "#ffffffbf",
+    "#ffffffd9",
+    "#ffffffe6"
+  ],
+  "contrast": [
+    {
+      "role": "Body",
+      "fg": "#26332d",
+      "bg": "#fbfaf7",
+      "ratio": 12.62
+    },
+    {
+      "role": "Muted copy",
+      "fg": "#747b73",
+      "bg": "#fbfaf7",
+      "ratio": 4.17
+    },
+    {
+      "role": "Eyebrow",
+      "fg": "#8d927f",
+      "bg": "#fbfaf7",
+      "ratio": 3.07
+    },
+    {
+      "role": "Privacy copy",
+      "fg": "#969a91",
+      "bg": "#ffffff",
+      "ratio": 2.87
+    },
+    {
+      "role": "Primary button",
+      "fg": "#ffffff",
+      "bg": "#405a4c",
+      "ratio": 7.54
+    },
+    {
+      "role": "Nav",
+      "fg": "#566159",
+      "bg": "#fbfaf7",
+      "ratio": 6.19
+    },
+    {
+      "role": "Procedure description",
+      "fg": "#898e85",
+      "bg": "#fbfaf7",
+      "ratio": 3.21
+    }
+  ],
+  "files": [
+    {
+      "name": "025093854zscm.js",
+      "bytes": 16736,
+      "sha256": "479bd52221b024a8f5cf7aace8adad3c181495877ed7337588813eb343f53ad8"
+    },
+    {
+      "name": "0c0hxoamwjsbw.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "name": "0upcggqhfmwuq.js",
+      "bytes": 230281,
+      "sha256": "5001ab2ec7dcebde9cb8c373dc7d1b5f3fb4bb7c7b32a967c2305add62ed8235"
+    },
+    {
+      "name": "2926gzk2yok9x.js",
+      "bytes": 170052,
+      "sha256": "7cd4101d66a332d035bea24917eb67e939d758ba4cbd4e4fd817bfb404f009f9"
+    },
+    {
+      "name": "29him74hxu3x8.css",
+      "bytes": 38956,
+      "sha256": "b5fa51c0223faeeadc9e24f044510b6b44bcdd55d1f6a30190dfec07bfad367d"
+    },
+    {
+      "name": "2mf_bj-62_jsc.js",
+      "bytes": 32219,
+      "sha256": "c6ac8657a89eb8dbf79732c47dba8dd282b8f71577d2648da457a873d9e9ab6e"
+    },
+    {
+      "name": "2pylnqsx19y71.js",
+      "bytes": 31083,
+      "sha256": "8e52bc10d2c5ca7f3baa9aa1c08d6dc2ed8744584b01418b0ffdc85932819a53"
+    },
+    {
+      "name": "apple-icon.png",
+      "bytes": 2626,
+      "sha256": "da678942d4656a903f61000551cc51c09464d7a223faaae304e8210e1ca19257"
+    },
+    {
+      "name": "glowlink-tunis-recovery.png",
+      "bytes": 1580863,
+      "sha256": "4e189a7f4063160d135b97b2d68e182ef6d199f61214eab59d43ec208ec4e061"
+    },
+    {
+      "name": "glowlink-tunis-terrace.png",
+      "bytes": 1932911,
+      "sha256": "427af84c5b336a3c1b2353406db078523a1b94b20c6979a77bd790bf4b982058"
+    },
+    {
+      "name": "icon-dark-32x32.png",
+      "bytes": 585,
+      "sha256": "8a1570b2955c3748b6844356a7487d88c60f9f1e699e870a3452a3decd1ba03c"
+    },
+    {
+      "name": "icon-light-32x32.png",
+      "bytes": 566,
+      "sha256": "83145e5bb033ace23cd8e7fbb63e7c39733aaf58f8a7280d7800995cced6f7c2"
+    },
+    {
+      "name": "icon.svg",
+      "bytes": 1304,
+      "sha256": "263f117c0c69a44d3206a5702105c178ebaa164bca325f3c3973a13bd948f1bf"
+    },
+    {
+      "name": "reference.html",
+      "bytes": 39728,
+      "sha256": "acb887273bc6a66d901e336a7d3880bec0ee78bbf7f230fc4c59a8ee76376797"
+    },
+    {
+      "name": "turbopack-1cvbnb3nlabgn.js",
+      "bytes": 10030,
+      "sha256": "8bbb58cbfd4633c1d828c6bc37bc32abc768a149c01b1dfc4f5131fd81274551"
+    }
+  ]
+}

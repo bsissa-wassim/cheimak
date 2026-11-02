@@ -1,0 +1,71 @@
+/* Review-page presentation only. Never required by the production website. */
+.review-icons {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.review-icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.review-page {
+  padding-block: var(--space-16);
+}
+
+.review-intro {
+  padding-block-end: var(--space-12);
+}
+
+.review-section {
+  --flow-space: var(--space-8);
+  padding-block: var(--space-12);
+  border-block-start: 1px solid var(--color-border);
+}
+
+.review-section-heading {
+  --flow-space: var(--space-4);
+  max-width: 48rem;
+}
+
+.review-palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: var(--space-6);
+}
+
+.review-swatch {
+  height: var(--space-24);
+  border: 1px solid var(--color-border);
+}
+
+.review-palette code {
+  display: block;
+  font-family: inherit;
+}
+
+.review-swatch--background { background: var(--brand-background); }
+.review-swatch--green { background: var(--brand-green); }
+.review-swatch--green-dark { background: var(--brand-green-dark); }
+.review-swatch--green-soft { background: var(--brand-green-soft); }
+.review-swatch--blue { background: var(--brand-blue); }
+.review-swatch--blue-light { background: var(--brand-blue-light); }
+.review-swatch--line { background: var(--brand-line); }
+.review-swatch--muted { background: var(--brand-muted); }
+
+.review-type-sample {
+  max-width: 58rem;
+  padding-block: var(--space-6);
+}
+
+.review-footer {
+  padding-block: var(--space-8);
+  border-block-start: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-size: var(--text-small);
+}

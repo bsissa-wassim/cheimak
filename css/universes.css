@@ -1,0 +1,13 @@
+.brand-zone { display: flex; align-items: center; gap: 16px; min-width: 0; }
+.brand__lockup { display: grid; gap: 5px; padding-block: 6px; }
+.brand__division { font-size: 9px; font-weight: 600; letter-spacing: .1em; line-height: 1.3; white-space: nowrap; }
+.button--universe { min-height: 44px; padding: 10px 16px; border-radius: 30px; white-space: nowrap; font-size: 12px; }
+.button--universe > span:last-child { font-size: 18px; line-height: 1; }
+.main-nav .language-switch { flex: none; margin-inline-start: 12px; }
+
+@media (max-width: 760px) {
+  .main-nav .language-switch { order: -1; margin-inline: 0 8px; }
+  .button--universe { padding: 10px 12px; font-size: 11px; }
+  .brand-zone { gap: 10px; }
+  [data-page="senior"] .hero__image { object-position: 78% 50%; }
+}

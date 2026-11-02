@@ -1,0 +1,277 @@
+/* Shared placement only; component surfaces and typography live elsewhere. */
+.site-shell,
+.section-shell {
+  width: min(var(--container-width), calc(100% - var(--gutter) * 2));
+  margin-inline: auto;
+}
+
+.site-shell {
+  padding-block: var(--section-space);
+}
+
+.section-shell--wide {
+  --container-width: var(--container-wide);
+}
+
+.section-shell--narrow {
+  --container-width: var(--container-narrow);
+}
+
+.section {
+  padding-block: var(--section-space);
+}
+
+.section--compact {
+  padding-block: var(--space-12);
+}
+
+.flow > * + * {
+  margin-block-start: var(--flow-space, var(--space-6));
+}
+
+.copy-measure {
+  max-width: var(--measure-copy);
+}
+
+.grid {
+  display: grid;
+  gap: var(--grid-gap);
+}
+
+.grid > *,
+.split > *,
+.form-grid > * {
+  min-width: 0;
+}
+
+.grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid--four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+}
+
+.split--editorial {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+}
+
+.inline-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4) var(--space-6);
+}
+
+.procedure-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5) var(--space-4);
+}
+
+.form-field--wide {
+  grid-column: 1 / -1;
+}
+
+/* Header alignment and hero composition, preserving the reference's insets. */
+.site-header {
+  position: sticky;
+  z-index: 20;
+  inset-block-start: 0;
+}
+
+.site-header__inner {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-4);
+  width: min(var(--container-wide), calc(100% - var(--gutter) * 2));
+  min-height: 4rem;
+  margin-inline: auto;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(0.75rem, 1.5vw, 1.25rem);
+  min-width: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  align-items: center;
+  min-height: clamp(34.375rem, 67vw, 43.75rem);
+  overflow: hidden;
+}
+
+.hero__image,
+.hero__shade {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__inner {
+  padding-block: clamp(5rem, 7vw, 6.25rem) var(--space-28);
+}
+
+.hero__copy {
+  max-width: 40rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4) var(--space-6);
+  margin-block-start: var(--space-8);
+}
+
+.hero__footer {
+  position: absolute;
+  inset-block-end: var(--space-6);
+  inset-inline: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-6);
+  width: min(var(--container-wide), calc(100% - var(--gutter) * 2));
+  margin-inline: auto;
+}
+
+.trust-strip__items {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-6);
+  padding-block: var(--space-6);
+  padding-inline: 0;
+  margin-block: 0;
+  list-style: none;
+}
+
+.quote-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  align-items: start;
+  gap: clamp(2rem, 6vw, 6rem);
+}
+
+.quote-layout > * {
+  min-width: 0;
+}
+
+.procedures-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.7fr);
+  align-items: end;
+  gap: var(--space-12);
+}
+
+.procedures-heading h2 {
+  max-width: 15ch;
+}
+
+.procedures-heading > p {
+  justify-self: end;
+  max-width: 33ch;
+}
+
+.procedures-gallery {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--space-10) var(--space-6);
+  margin-block-start: var(--space-10);
+}
+
+.procedure-photo {
+  grid-column: span 2;
+  min-width: 0;
+}
+
+.procedure-photo:nth-child(n + 4) {
+  --procedure-image-ratio: 16 / 10;
+  grid-column: span 3;
+}
+
+.surgeon-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+}
+
+.surgeon-layout > * {
+  min-width: 0;
+}
+
+.surgeon-portrait {
+  width: min(100%, 27rem);
+  justify-self: start;
+}
+
+.packages-heading {
+  max-width: 44rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: var(--space-6);
+  margin-block-start: var(--space-12);
+}
+
+.packages-grid > * {
+  min-width: 0;
+}
+
+.faq-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  align-items: start;
+  gap: clamp(2rem, 6vw, 6rem);
+}
+
+.faq-layout > * {
+  min-width: 0;
+}
+
+.stay-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 5rem);
+}
+
+.stay-layout > * {
+  min-width: 0;
+}

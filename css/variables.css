@@ -1,0 +1,104 @@
+:root {
+  color-scheme: light;
+
+  --brand-green: #244c42;
+  --brand-green-dark: #193c33;
+  --brand-green-soft: #386b60;
+  --brand-blue: #d5eaf2;
+  --brand-blue-light: #edf6fa;
+  --brand-background: #f7fbfc;
+  --brand-line: #b9d0d4;
+  --brand-muted: #4d6962;
+
+  --color-background: var(--brand-background);
+  --color-surface: #ffffff;
+  --color-surface-subtle: var(--brand-blue-light);
+  --color-surface-tinted: var(--brand-blue);
+  --color-surface-packages: var(--brand-blue-light);
+  --color-surface-contact: var(--brand-blue);
+  --color-surface-footer: var(--brand-green);
+  --color-text: var(--brand-green);
+  --color-text-muted: var(--brand-muted);
+  --color-text-secondary: #45645c;
+  --color-text-inverse: #ffffff;
+  --color-text-on-green: var(--brand-blue);
+  --color-text-footer: var(--brand-blue);
+  --color-accent: var(--brand-green-soft);
+  --color-accent-light: var(--brand-blue);
+  --color-border: var(--brand-line);
+  --color-border-control: #65877f;
+  --color-button: var(--brand-green);
+  --color-button-hover: var(--brand-green-dark);
+  --color-button-light: var(--brand-blue);
+  --color-procedure-hover: var(--brand-blue-light);
+  --color-focus: var(--brand-green);
+  --color-selection: var(--brand-blue);
+  --color-header: var(--brand-blue-light);
+  --color-header-border: var(--brand-line);
+  --color-hero-fallback: var(--brand-green);
+  --color-hero-eyebrow: var(--brand-blue);
+  --color-hero-text: #ffffffd9;
+  --color-footer-accent: var(--brand-blue);
+
+  --overlay-hero: linear-gradient(90deg, #193c33e6 0%, #244c42b3 36%, #244c4214 75%),
+    linear-gradient(#0000 68%, #193c3366 100%);
+  --overlay-hero-mobile: linear-gradient(90deg, #193c33e6, #244c4299 80%),
+    linear-gradient(#0000 45%, #193c3366);
+  --overlay-stay: linear-gradient(#0000, #244c4214);
+  --overlay-portrait: linear-gradient(180deg, transparent, #193c33d9);
+  --shadow-package: 0 15px 40px #244c4217;
+  --shadow-form: 0 10px 40px #244c420f;
+  --shadow-mobile-cta: 0 7px 22px #244c423d;
+
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-editorial: Georgia, "Times New Roman", serif;
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --text-small: 0.75rem;
+  --text-body: 0.875rem;
+  --text-control: 1rem;
+  --text-lead: clamp(0.9375rem, 1.2vw, 1.0625rem);
+  --text-display: clamp(3.1875rem, 6.5vw, 5.125rem);
+  --text-heading: clamp(2.25rem, 4.3vw, 3.375rem);
+  --text-intro: clamp(1.875rem, 3vw, 2.5rem);
+  --text-feature: clamp(2.375rem, 4.1vw, 3.4375rem);
+  --text-quote: clamp(2.5625rem, 4.5vw, 3.6875rem);
+  --text-card: 1.5625rem;
+  --text-procedure: 1.1875rem;
+  --text-question: 1.0625rem;
+  --tracking-heading: -0.045em;
+  --tracking-label: 0.18em;
+  --leading-display: 0.99;
+  --leading-heading: 1.07;
+  --leading-body: 1.8;
+
+  /* Four-pixel rhythm, retaining the reference's restrained section density. */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-28: 7rem;
+  --space-30: 7.5rem;
+  --container-width: 70rem;
+  --container-wide: 80rem;
+  --container-narrow: 42.5rem;
+  --gutter: clamp(1.375rem, 3vw, 2rem);
+  --section-space: clamp(4.25rem, 7.5vw, 7rem);
+  --grid-gap: clamp(1.5rem, 3vw, 2.5rem);
+  --measure-copy: 43ch;
+  --radius-control: 0;
+  --radius-circle: 50%;
+  --target-size: 2.75rem;
+  --header-height: 4.0625rem;
+  --duration-fast: 200ms;
+  --ease-standard: ease;
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "path": "/glowlink-tunis-recovery.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 1580863,
+    "width": 1312,
+    "height": 816
+  },
+  {
+    "path": "/glowlink-tunis-terrace.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 1932911,
+    "width": 1264,
+    "height": 848
+  },
+  {
+    "path": "/icon-light-32x32.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 566,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "/icon-dark-32x32.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 585,
+    "width": 32,
+    "height": 32
+  },
+  {
+    "path": "/icon.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1304
+  },
+  {
+    "path": "/apple-icon.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 2626,
+    "width": 180,
+    "height": 180
+  }
+]

@@ -1,0 +1,11 @@
+audit/
+docs/
+review/
+tests/
+dist/
+.env
+.env.*
+*.log
+/*.png
+/*.jpeg
+/GlowLink_Fondatrice_Demo.html
